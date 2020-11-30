@@ -1,0 +1,248 @@
+body{
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* menu bar  */
+header{
+    background-color:#a464a4;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+header img{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 6%;
+    display: inline;
+    margin-left: 1%;
+    width: 7.5%;
+}
+
+header ul{
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    padding-top: 1.5%;
+    float: right;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 28px 32px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+li a:hover{
+    color:#000000
+}
+
+
+/* text  */
+.pageTitle{
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+p{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    padding: 0px 25%;
+} 
+span{
+    position: absolute;
+    top:20%;
+    color:white;    
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+
+/* form  */
+#formBox{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+form{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.userInfo{
+    padding-left: 10%;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    width:600px;
+
+}
+
+#userMsg{
+    font-family: Helvetica;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    width:640px;
+    height:210px;
+    resize: none;
+    
+}
+
+#submitButton{
+    background-color:#a464a4;
+    color:rgb(220,220,220);
+    border: none;
+    font-family: Helvetica;
+    font-size: 40px;
+    padding: 20px 60px;
+    margin: 8px 0px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+/* review boxes */
+.reviewBox{
+    background-color:darkgrey;
+    width: 80%;
+    padding: 3%;
+    padding-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.username{
+    float: left;
+    width:67.55%;
+    height:20px;
+    position: relative;
+    /* text styles  */
+    font-family: Helvetica;
+    font-size: 20px;
+    /* border */
+    padding: 1% 0.5% 1% 0.5%;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 4.8%;
+}
+
+.date{
+    float: left;
+    width:67.55%;
+    height:20px;
+    /* text styles  */
+    font-family: Helvetica;
+    font-size: 20px;
+    /* border */
+    padding: 1% 0.5% 1% 0.5%;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 4.8%;
+}
+
+.profilePicBox{
+    position: relative;
+    float: left;
+    padding-right: 2.5%;
+
+}
+
+.profilePic{
+    float: left;
+    /* picture size */
+    width:100px;
+    height:100px;
+    /* border */
+    border-style: solid;
+    border-color: black;
+
+}
+
+.gameplayBox{
+    margin:0;
+    padding-top: 1%;
+}
+
+.gameplayImg{
+    float: left;
+    width:536px;
+    height:200px;
+    /* border */
+    border-style: solid;
+    border-color: black;
+
+}
+.review{
+    position: static;
+    width:60%;
+    height: 303.5px;
+    margin-left: 40%;
+    /* border */
+    border-style: solid;
+    border-color: black;
+    /* text styles  */
+    padding:1% 1% 1% 1%;    
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+#leftCol{
+    float: left;
+    width:40%;
+   
+}
+
+
+/* footer  */
+.footer{
+    position:absolute;
+    left:0;
+    width: 100%;
+    background-color:#a464a4;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    
+}
+
+
+/* icons */
+.fa {
+    color:white;
+    padding: 20px;
+    font-size: 70px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+#socialIcons{
+    font-size: 40px;
+}
+
+#infoBox{
+    font-size: 20px;
+}
