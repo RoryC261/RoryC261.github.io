@@ -199,6 +199,7 @@ footer h2{
 
 /* === https://www.w3schools.com/w3css/default.asp === Used w3 schools custom css to create social media icons */
 
+
 .fa {
   float: left;
   display: inline;
@@ -238,18 +239,17 @@ footer h2{
   }
 
   footer h2{
-    float: none;
-    margin-left: 5%;
-    font-size: 20px;
+  float: none;
+  margin-left: 5%;
+  font-size: 20px;
   }
 
   .fa-facebook{
-    margin-left: 5%;
-  }
-
-  .fa{
+  margin-left: 5%;
   }
 }
+
+
 
 @media only screen and (max-width: 725px) {
   header img{
