@@ -1,0 +1,195 @@
+<html>
+
+<head>
+
+  <title>RGU Gaming Society</title>
+
+  <!-- Meta tags -->
+  <meta name="author" content="Rory Cameron">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Links -->
+        <link rel="stylesheet" type="text/css" href="stylesheet-gallery&news.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+</head>
+
+<body>
+
+
+
+
+  <div class="landing">
+
+    <header>
+      <a href="index.html">
+      <img id="header-logo" src="gamingSocietyLogo.png">
+      </a>
+
+      <ul>
+        <li><a href="#">"Drop Down Menu"</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Events</a></li>
+    </header>
+
+
+    <div class="pageTitle">
+      <h1>RGU Gaming Society</h1>
+    </div>
+
+
+  <div class="pageDesc">
+    <h1><u>News</u></h1>
+    
+    <h3>Get caught up on all the latest gaming news here. On this page we'll have all the up to date gaming information.</h3>
+    <h2>Latest Gaming News</h2>
+    </div>
+
+
+<div class="slideshow-box">
+  <div class="slides">
+    <img src="phasmophobia.jpg" style="width:100%">
+    <div class="text">New Phasmophobia Update</div>
+  </div>
+
+  <div class="slides">
+    <img src="callofduty.jpg" style="width:100%">
+    <div class="text">Call of Duty: Black Ops Cold War Realeases</div>
+  </div>
+
+  <div class="slides">
+    <img src="apex.jpg" style="width:100%">
+    <div class="text">Apex Legends Season 7 Is now Available</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<!-- -->
+<script>
+var slideIndex = [1,1];
+var slideId = ["slides"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<br>
+  <table style="width:100%">
+  <tr>
+    <th><u>New Phasmophobia Update</u></th>
+    <th><u>Call of Duty: Black Ops Cold War Realeases</u></th>
+    <th><u>Apex Legends Season 7 Is now Available</u></th>
+  </tr>
+  <tr>
+    <td>Phasmophobia, a co-op horror game based around discovering paranormal activity
+      in different locations has recieved a new patch which has changes some mechanics and fixed some issus with the game:<br> 
+      <br> 
+
+      <!--Source for update changes: https://game-updates.info/phasmophobia?20 -->
+    Increased the size of the fingerprint on the cell doors.<br>
+    You will no longer collide with cabinet doors. This will fix the exploit of getting on top of the kitchen counters.<br>
+    <br>
+    Prison: Fixed a bug where one of the Fuse Box spawns was inside the wall.<br>
+    <br>
+    Prison: Fixed a bug where the the light switch in Cell Block B couldn’t be used.<br>
+    <br>
+    Prison: Fixed a bug where items would fall through the entrance stairs.<br>
+    <br>
+    Fixed some of the ghost door sounds that were changed in the previous update.<br>
+    <br>
+    Asylum: Fixed a bug where the lockers didn’t have any collision.<br>
+    <br>
+    Prison: Fixed the fingerprint on the cell doors being set to the wrong texture.<br>
+    <br>
+    Fixed a bug where you would get duplicate contracts.<br>
+    <br>
+    Prison: Fixed several areas where the Ghost could get stuck behind a wall.<br>
+    <br>
+    Fixed a bug where the character models would go black in some areas of the Truck.<br>
+  
+</td>
+  
+    <td>The new installment in the very popluar Call of Duty franchise, known as Black Ops Cold War, had released on the 13th of November of this year.<br>
+      <br> 
+    Fans of the series have come to the game hoping to get their hands on a revamped experience with the franchise, with the game's setting taking place after the original Black Ops game in the campaign and the story having themes of trust and interpretation.<br>
+    <br>   
+    Black Ops Cold War has taken some notes from what was said about last year's installment Modern Warfare (2019) and has returned to more formulaic map design. On top of this it has taken inspiration from Modern Warfare's Gunsmith for the player's loadout customization.<br>
+    <br>
+    The new installment has brought back the fan favourite Zombies mode and taking the gamemode in Cold War back to the older style of the survival co-op but also adds what the zombies mode has built up on with more optional objectives and more unique weapons to choose from.
+  </td>
+
+  <td>
+
+    Apex Legends is a free to play, fast paced Battle Royale game created by Respawn Entertainment.<br>
+    <br>
+    The game has had a new season of content added to it this month, which the devs are calling "Season 7: Ascension". This season brings a whole new map to the game named "Olympus", set in a floating city which adds a whole host of new game elements. This includes a portal in the middle of the map that players can run through to traverse the map quicker, as well as this there are vehichle called the "Trident" in the game for the first time which all three members of a squad can jump on and ride together with the map providing routes and jumps players can use to their advantage.<br>
+    <br>
+    This season also brings a new legend for players to unlock: Horzion. She is described as "A brilliant astrophysicist" who has the special ability to create black holes which drag enemies towards it and trap them and she also has the ability to change gravity within an area to give her and her squadmates an ariel advantage over her foes. <br>
+    <br>
+    As found in the previous seasons of the game, there is a new optional battle pass in the game which players can buy to unlock extra cosmetics for their legends which are themed accordingly with the new map and content. The Ranked playlist has also been reset so players will have to regain their ranks previously achieved in previous seasons. The game also introduces the Clubs feature which allows players to create communities and clans within the game.<br>
+    <br>
+    Apex Legends is now available on the Steam store and those that have previously only had the game on Origin can now download and install the game via Steam and have all their data transferred from Origin. 
+
+  </td>
+  <br>
+  
+
+
+</table>
+<div class="clearfix">
+
+  <div class="footer">
+        <div class="email">
+          <br>
+            <h4>Email: gaming@rguunion.co.uk</h4>
+        </div>
+    <div class="w3-panel w3-large">
+        <a href="https://www.facebook.com/rgugaming">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    </a>
+
+    <a href="https://www.instagram.com/">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+
+    <a href="https://twitter.com/RGUGaming">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    </a>
+
+  </div>
+    </div>
+
+</body>
+
+</html>
