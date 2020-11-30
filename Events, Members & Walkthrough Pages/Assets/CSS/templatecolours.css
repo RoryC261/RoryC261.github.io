@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+}
+
+header{
+    background-color: #a464a4;
+}
+
+main{
+    background-color: blue;
+}
+
+section{
+    background-color: orange;
+}
+
+aside{
+    background-color: yellow;
+}
+
+footer{
+    background-color: purple;
+}
