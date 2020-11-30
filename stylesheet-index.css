@@ -40,6 +40,13 @@ button:hover{
   background-color: black;
 }
 
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Bebas Neue", cursive;
+    font-size: 3vh;
+}
+
 /* ====== LANDING PAGE / NAV ====== */
 header{
   max-width: 100%;
