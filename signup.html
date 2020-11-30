@@ -1,0 +1,84 @@
+
+<html>
+
+<head>
+  <title>RGU | Sign Up</title>
+
+  <!-- Meta tags -->
+  <meta name="author" content="Rory Cameron">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Links -->
+  <link rel="stylesheet" type="text/css" href="stylesheet-signup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="landing">
+
+    <header>
+      <img id="header-logo" src="assets/logo.png">
+
+      <ul>
+        <li><a href="#">"Drop Down Menu"</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Events</a></li>
+      <ul>
+    </header>
+  </div>
+
+
+
+  <div class="content">
+    <img id="logo-img" src="assets/logo.png">
+
+    <h1>Become A Member Of <span id="title-colour">RGU Gaming</span> Today!</h1>
+
+    <form class="form-signup" onsubmit="signup()">
+
+      <script src="signup.js"></script>
+
+      <div class="left">
+        <div class="name">
+          <h2>Full Name:</h2>
+          <input type="text" id="name" required>
+        </div>
+
+        <div class="email">
+          <h2>Email:</h2>
+          <input type="text" id="email" required>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="password1">
+          <h2>Password:</h2>
+          <input type="password" id="password1" required>
+        </div>
+
+        <div class="password2">
+          <h2>Confirm Password:</h2>
+          <input type="password" id="password2" required>
+        </div>
+      </div>
+
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+
+  <footer>
+    <h2>Email: gaming@rguunion.co.uk</h2>
+
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </footer>
+
+</body>
+
+</html>
