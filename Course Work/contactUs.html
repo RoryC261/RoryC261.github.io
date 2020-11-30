@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- page header-->
+        <title>RGU Gaming Society - Contact Us</title>
+        <!-- link to style sheet-->
+        <link rel="stylesheet" href="JudesStyles.css" type="text/css">
+        <!-- link to font  -->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- link to icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <header>
+            <img id="header-logo" src="Images/societyLogo.png">
+            <span>RGU Gaming Society</span>
+            <!-- menu bar -->
+            <ul>
+                <!-- couldn't manage to get the drop down menu working -->
+                <li><a href="#">"Drop Down Menu"</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Events</a></li>
+            <ul>
+        </header>
+        <!-- title and paragraph -->
+        <h1 class="pageTitle">Contact Us</h1>
+        <p>We at the RGU gaming society love to hear feedback from our members. Please use this form to tell us what's on your mind. We would be delighted   to hear your comments. </p>
+        <!-- form -->
+        <div id="formBox">
+            <form style="float: left;">
+                <input class="userInfo" type="text" placeholder="First Name:">
+                <br>
+                <input class="userInfo" type="text" placeholder="Surname:">
+                <br>
+                <input class="userInfo" type="text" placeholder="Phone Number:">
+                <br>
+                <input class="userInfo" type="text" placeholder="Email:">
+                <br>
+                <button id="submitButton" onclick="submitMsg()">Submit</button>
+            </form>
+            <form style="padding-bottom: 10%;">
+                <textarea id="userMsg" placeholder="Message:" ></textarea>
+            </form>
+        </div>
+        <!-- submit button script -->
+        <script>
+            
+            function submitMsg(){
+                //assigns message box content to variable
+                let message = document.getElementById("userMsg").value;
+                //creates the email subject
+                let subject = "RGU Gaming Society Feedback";
+                //opens desktop email application and fills in receiver's address, subject and body of email
+                window.open('mailto:gaming@rguunion.co.uk?subject=' + subject + '&body=' + message);
+            }
+        </script>
+        <!-- footers -->
+        <div class="footer">
+            <div id="infoBox">
+                <h4>Email: gaming@rguunion.co.uk </h4>
+                <h4>Phone Number: 01224 458098</h4>
+            </div>
+            <div id="socialIcons">
+                <a href="https://www.facebook.com/rgugaming" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/RGUGaming" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/rgugaming/" class="fa fa-instagram"></a>
+            </div>
+                
+        </div>
+    </body>
+
+
+</html>
