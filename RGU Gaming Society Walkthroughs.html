@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en-UK">
+    <head>
+        <!--Website inspired by https://www.w3schools.com/ and HTML&CSS design and build websites book by Jon Duckett-->
+        <!--Character set----->
+        <meta charset="UTF-8">
+        <!--Keywords for search engine-->
+        <meta name="keywords" content="Walkthroughs">
+        <!--Page creator------>
+        <meta name="author" content="Calum Farquhar">
+        <!---viewport setting across all devices------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--- Description of page------>
+        <meta name="description" content="RGU Gaming Society Events">
+        <!--- Page Title-------------->
+        <title>Walkthroughs: RGU Gaming Society</title>
+        <!---Stylesheet Import------------>
+        <link rel="stylesheet" href="Events, Members & Walkthroughs.css">
+        <!---JS Script-->
+        <script src="#"></script>
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--This is recommended to be set under first body tag. this is needed for the facebookpost/event to embed-->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="6WT6buSz"></script>
+
+        <header>
+            <!--<img id="rgu_gaming_society" src="Images/rgu_gaming_society.png" alt="RGU Gaming Society Logo"/>----->
+            <!--The Nav Bar href links are just the name of the HTML files and should be stored all in the same folder(if using directories, mainfolder/foldername/file.html)to link homepage from directory use / / to parent folder-------->
+           <nav>
+               <ul>
+                   <!---Image size should be saved as the size required for the website to speed up load times -->
+                   <li title="Homepage"><a href ="index.html">
+                    <img id="rgu_gaming_society" src="assets/societyLogo.png" class="logo" alt="RGU Gaming Society Logo" /></li>
+                   <li><a class="white" href ="RGU Gaming Society Events.html">Events</a></li>
+                   <li><a class="white" href ="RGU-GS-gallery.html">Gallery</a></li>
+                   <li><a class="white" href ="reviews.html">Reviews</a></li>
+                   <li><a class="white" href ="contactUs.html">Contact Us</a></li>
+                   <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">...</a>
+                    <div class="dropdown-content">
+                        <a href="signup.html">Sign Up</a>
+                        <a href="RGU Gaming Society Members.html">Members</a>
+                        <a href="RGU Gaming Society Walkthroughs.html">Walkthroughs</a>
+                      </div>
+               </ul>
+        </nav>
+          <!---Possible banner insert-->
+        <!--<img id="Insert Banner" src="Images/InsertBanner.png" alt="Insert Banner"/>-->
+        </header>
+          <!--Main Page Content-->
+        <main>
+         <!-- First section for Google Calender-->
+         <aside class="border2">
+            <h3 class="h3">Walking Dead Saints & Sinners Walkthrough Part 1</h3>
+            <p>Walking Dead SAINTS & SINNERS Walkthrough that covers the Full Game of that will include All Main Story Missions, All Cutscenes/Cinematics and All Boss Fights recorded with No Commentary streamed on PC.</p>
+        </aside>
+            <section>
+                <iframe id="vid1" width="560" height="315" src="https://www.youtube.com/embed/h7htUIBSUtk" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <!--Second section for Facebook post and event summary-->
+            <aside class="border2">
+                <h3 class="h3">Walking Dead Saints & Sinners Walkthrough Part 1(Continued...)</h3>
+                <p>Walking Dead SAINTS & SINNERS Walkthrough that covers the Full Game of that will include All Main Story Missions, All Cutscenes/Cinematics and All Boss Fights recorded with No Commentary streamed on PC.</p>
+            </aside>
+            <section>
+                <iframe id="vid1" width="560" height="315" src="https://www.youtube.com/embed/rnSp0n94i4s" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <!--Third section for Facebook post and event summary-->
+            <aside class="border2">
+                <h3 class="h3">Walking Dead Saints & Sinners Walkthrough Ending</h3>
+                <p>Walking Dead SAINTS & SINNERS Ending (Surviving Alone Ending)</p>
+           </aside>
+            <section>
+                <iframe id="vid1" width="560" height="315" src="https://www.youtube.com/embed/xTooCQ6X9yM" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+        </main>
+        <!--Footer-->
+        <footer>
+            <h2 class="white">Connect with us</h2>
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/rgugaming" class="fa fa-facebook"></a></li>
+                <li><a target="_blank"href="https://twitter.com/RGUGaming" class="fa fa-twitter"></a></li>
+                <li><a target="_blank"href="https://www.instagram.com/rgugaming/" class="fa fa-instagram"></a></li>
+                <li><a class="white">&copy:RGU Gaming Society</a></li>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </ul>
+        </footer>
+        <!--Print page button-->
+        <button onclick="window.print()">Print this page</button>
+    </body>
+</html>
